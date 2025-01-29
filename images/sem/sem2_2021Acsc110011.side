@@ -1,0 +1,231 @@
+{
+  "id": "0a81f25a-8e20-4631-86f5-0e5d2871947c",
+  "version": "2.0",
+  "name": "abcoedtech",
+  "url": "https://abcoedtech.com",
+  "tests": [{
+    "id": "c6cb3155-8057-4129-a196-2e784abdeb66",
+    "name": "abcoedtech",
+    "commands": [{
+      "id": "09750618-3bea-45eb-8e0b-5d2facf10483",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a4983f1-71c9-43b5-9626-664cece61c5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f690b993-b1c1-4ed8-9622-d40cb9b5a6a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-lg-4:nth-child(2) > .service-item .btn",
+      "targets": [
+        ["css=.col-lg-4:nth-child(2) > .service-item .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Read More')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[14]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "716cfc9b-c8e6-45c3-b04c-42d86a01cf23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ripple-surface",
+      "targets": [
+        ["css=.ripple-surface", "css:finder"],
+        ["xpath=(//a[contains(text(),'Read More')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[14]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c356988a-0bb7-40ab-811d-ea6e3d10f149",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ripple-surface",
+      "targets": [
+        ["css=.ripple-surface", "css:finder"],
+        ["xpath=(//a[contains(text(),'Read More')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[14]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a864208-d32f-47d5-9c69-4cb35911760d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#exampleModal2 .btn-close",
+      "targets": [
+        ["css=#exampleModal2 .btn-close", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='exampleModal2']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34800c99-c106-442a-a206-085ae1f5daae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'about')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "431986c5-ae46-4265-8970-cc14e9299de2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=.nav-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'service ')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3c635d-452f-4a3c-a1e8-635b2ce1d566",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testimonial",
+      "targets": [
+        ["linkText=Testimonial", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Testimonial')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'testimonial ')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Testimonial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26531e04-a1c3-49c9-942c-1f4c920bb85f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apply for Internships",
+      "targets": [
+        ["linkText=Apply for Internships", "linkText"],
+        ["css=.dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply for Internships')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'internship ')]", "xpath:href"],
+        ["xpath=//div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Apply for Internships')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d0193d-d9e9-42d2-9081-c0f78ce811c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.nav-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'contact ')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24225b46-f4b0-4819-8595-1b8daa7e9733",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index')])[2]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "466ff28f-c7ef-43c8-ae47-823a5088941a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3178.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b529e44-c1fe-46f0-a33e-25be2b77762f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-2:nth-child(2)",
+      "targets": [
+        ["css=.mx-2:nth-child(2)", "css:finder"],
+        ["xpath=//ul[@id='portfolio-flters']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Web Apps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f3f28b6-c077-4550-ba8c-0320dbc50978",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-2:nth-child(3)",
+      "targets": [
+        ["css=.mx-2:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='portfolio-flters']/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'CRM And ERP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9361fa9a-56f4-48e3-aec2-62f06f597ac6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-lg-4:nth-child(3) > .portfolio-inner .fa",
+      "targets": [
+        ["css=.col-lg-4:nth-child(3) > .portfolio-inner .fa", "css:finder"],
+        ["xpath=//div[3]/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40885c76-cf0b-4b96-bacb-2f934dd7b708",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ripple-surface > .fa",
+      "targets": [
+        ["css=.ripple-surface > .fa", "css:finder"],
+        ["xpath=//div[3]/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf8f0a9-d570-43a6-a1b0-a1fcb5dda667",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3636.800048828125)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bf0b9c69-2565-4402-97be-39a2d3c82b11",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c6cb3155-8057-4129-a196-2e784abdeb66"]
+  }],
+  "urls": ["https://abcoedtech.com/"],
+  "plugins": []
+}
