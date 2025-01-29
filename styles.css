@@ -1,0 +1,31 @@
+:root{
+    --main-bg:#5a0b0c;
+  }
+  
+  .main-bg {
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+  .card, .btn, input{
+    border-radius:0 !important;
+    
+  }
+
+  .container{
+    align-self: center;
+    margin-top: 5em;
+  }
+  
